@@ -16,11 +16,14 @@
 </head>
 
 <body>
-  <div class="logo">
+  <div class="logo-top">
     <img src="././images/logo.svg" alt="">
   </div>
   <section class="wrapper">
     <div class="left">
+      <div class="logo">
+        <img src="././images/logo.svg" alt="">
+      </div>
       <h1>
         <span>We're</span> coming soon
       </h1>
@@ -29,12 +32,17 @@
         Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
       <form autocomplete="off"><!-- including username and password -->
-        <input type="email" placeholder="Email Address" name="email" id="email" required>
+        <input 
+        type="email" 
+        placeholder="Email Address" 
+        name="email" 
+        id="email" 
+        required>
         <label for="email">
           <img src="./images/icon-error.svg" alt="">
         </label>
-        <button type="submit"><img src="./images/icon-arrow.svg" alt=""></button>
-        <p class="error-msg">Please provide a valid Email</p>
+        <button type="submit" class="submit"><img src="./images/icon-arrow.svg" alt=""></button>
+        <p class="error">Please provide a valid Email</p>
       </form>
     </div>
 
@@ -49,6 +57,7 @@
       Coded by <a href="#">Marianella Gamboa</a>.
     </p>
   </footer>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
