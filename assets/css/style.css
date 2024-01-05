@@ -167,6 +167,11 @@ input[type=email]:focus {
 
     .wrapper .left h1 {
         text-align: left;
+        margin: 4rem 7rem 2rem;
+    }
+    
+    .wrapper .left .paragraph {
+        text-align: left;
     }
 
     .wrapper .right {
@@ -174,5 +179,6 @@ input[type=email]:focus {
         background-size: cover;
         height: 700px;
         width: 82%;
+        margin: 0;
     }
 }
